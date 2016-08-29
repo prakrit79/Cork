@@ -1,0 +1,521 @@
+.container{
+	width: 1170px;
+	height: 3033px;
+	background-color: white;
+	position: relative;
+}
+
+/*--------------------------------------------------*/
+
+.header{
+	width: 1170px;
+	padding: 0 215px 0 215px;
+	height: 161px;
+	background-color: white;
+	position: relative;
+}
+
+.header .top{
+	height: 61px;
+	width: inherit;
+}
+
+.header .top .left{
+	width: 370px;
+	height:61px;
+	position: absolute;
+}
+
+.header .top .left ul li{
+	display: inline-block;
+	height: inherit;
+}
+
+.header .top .left ul li a{
+	text-decoration: none;
+	color: #b8b8b8;
+}
+
+.header .top .left ul li a.phonepic{
+	width: 20px;
+	height: 61px;
+	background: url(../img/phone.png)no-repeat;
+	display: inline-block;
+	text-indent: -2000px;
+}
+
+.header .top .left ul li a.no{
+	width: 170px;
+	height: inherit;
+	padding-right: 20px;
+}
+
+.header .top .left ul li a.emailpic{
+	width: 20px;
+	height: 61px;
+	background: url(../img/email.png)no-repeat;
+	display: inline-block;
+	text-indent: -2000px;
+}
+
+.header .top .left ul li a.email{
+	width: 230px;
+	height: inherit;
+}
+
+.header .right{
+	width: 200px;
+	height: 23px;
+	background: url(../img/social.png)no-repeat;
+	position: absolute;
+	right: 215px;
+	top: 18px;
+	text-indent: -2000px;
+}
+
+hr{
+	color: #b8b8b8;
+}
+
+.header .bottom{
+	width: inherit;
+	height: 100px;
+	position: relative;
+}
+
+.header .bottom .left{
+	width: 167px;
+	height: inherit;
+	position: absolute;
+}
+
+.header .bottom .left a{
+	font-size: 25px;
+	font-family: OpenSans Extrabold;
+	color: #00aeef;
+	text-decoration: none;
+	height: 50px;
+	width: 150px;
+	background: url(../img/logo.png) no-repeat;
+	display: inline-block;
+	text-align: center;
+}
+
+.header .bottom .left a.logo{
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.header .bottom .mid{
+	width: 672px;
+	height: inherit;
+	position: absolute;
+	right: 200px;
+	margin-top: 10px;
+}
+.header .bottom .mid ul li{
+	width: 650px;
+	height: 24px;
+	display: inline;
+	color: black;
+	text-decoration: none;
+	font-family: OpenSans;
+	color: #202020;
+	margin-right: 30px;
+}
+
+.active{
+	background-color: #00aeef;
+}
+
+.header .bottom .rightt{
+	width: 200px;
+	height: inherit;
+	position: absolute;
+	right: 0px;
+}
+
+.header .bottom .rightt button{
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-left: 8px;
+	width: 90px;
+	height: 40px;
+	font-size: 15px;
+	font-family: Open Sans;
+	color: white;
+}
+
+.header .bottom .rightt button.login{
+	background-color: #00aeef;
+}
+
+.header .bottom .rightt button.signup{
+	background-color: #c2c2c2;
+}
+
+/*--------------------------------------------------*/
+
+.header2{
+	width: 1170px;
+	padding: 0 215px 0 215px;
+	height: 691px;
+	position: relative;
+	background-color: #0084f0;
+}
+
+.header2 .header2top{
+	position: absolute;
+	height: 378px;
+	width: inherit;
+	left: 490px;
+	top: 211px;
+}
+
+.header2 .header2top h1{
+	font-family: Open Sans Extrabold;
+	font-size: 30px;
+	color: white;
+}
+
+.header2 .header2mid{
+	width: 843px;
+	height: 45px;
+	position: absolute;
+	left: 405px;
+	top: 280px;
+}
+
+.header2 .header2mid h5{
+	font-family: OpenSans;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.header2 .header2nav{
+	height: 100px;
+	width: 890px;
+	position: absolute;
+	top: 380px;
+	left: 354px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.header2 .header2nav input,.header2 .header2nav select{
+	padding-left: 15px;
+	margin: 26px 0 26px 20px;
+	width: 216px;
+	height: 48px;
+	background-color: #eeeeee;
+	color: #858585;
+	font-family: Open Sans;
+	text-decoration: italic;
+	font-size: 15px;
+}
+
+.header2 .header2nav button{
+	margin: 26px 0 26px 20px;
+	background-color: #00aeef;
+	width: 130px;
+	height: 48px;
+	color: white;
+	font-family: Open Sans;
+	text-decoration: bold;
+	font-size: 15px;
+
+}
+
+
+/*--------------------------------------------------*/
+.content1{
+	width: 1170px;
+	padding: 0 215px 0 215px;
+	height: 1207px;
+	position: relative;
+	background-color: white;
+}
+
+.content1 .content1top{
+	height: 650px;
+	width: inherit;
+}
+
+.content1 .content1top .content1topheader{
+	height: 150px;
+	width: 630px;
+	margin-left: 270px;
+}
+
+.content1 .content1top .content1topcontent{
+	position: relative;
+	height: 380px;
+	width: 1200px;
+}
+
+.content1 .content1top .content1topheader h2{
+	font-family: Open Sans Extrabold;
+	text-align: center;
+}
+
+.content1 .content1top .content1topheader h4{
+	font-family: Open Sans;
+	color: grey;
+	text-align: center;
+}
+
+.content1 .content1top .content1topcontent h3.employee{
+	font-family: Open Sans Extrabold;
+	color:#8dc63f;
+}
+
+.content1 .content1top .content1topcontent .profile{
+	position: absolute;
+	width: 365px;
+	height: 376px;
+	background-color: #00aeef;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.content1 .content1top .content1topcontent .profile a{
+	position: absolute;
+	width: 91px;
+	height: 91px;
+	display: block;
+	background: url(../img/resume.png) no-repeat;
+	left: 139px;
+	top: 50px;
+	text-indent: -2000px;
+}
+
+.content1 .content1top .content1topcontent .profile h3{
+	position: absolute;
+	font-family: Open Sans;
+	top: 164px;
+	left: 25px;
+	color: white;
+}
+
+.content1 .content1top .content1topcontent .search{
+	position: absolute;
+	width: 365px;
+	height: 376px;
+	left: 370px;
+	background-color: #00aeef;
+	border-radius: 10px;
+}
+
+.content1 .content1top .content1topcontent .search a{
+	position: absolute;
+	width: 91px;
+	height: 91px;
+	display: block;
+	background: url(../img/question.png) no-repeat;
+	left: 139px;
+	top: 50px;
+	text-indent: -2000px;
+}
+
+.content1 .content1top .content1topcontent .search h3{
+	position: absolute;
+	font-family: Open Sans;
+	top: 164px;
+	left: 50px;
+	color: white;
+}
+
+
+.content1 .content1top .content1topcontent .connect{
+	width: 365px;
+	height: 376px;
+	left: 740px;
+	position: absolute;
+	background-color: #00aeef;
+	border-radius: 10px;
+}
+
+.content1 .content1top .content1topcontent .connect a{
+	position: absolute;
+	width: 91px;
+	height: 91px;
+	display: block;
+	background: url(../img/person.png) no-repeat;
+	left: 139px;
+	top: 50px;
+	text-indent: -2000px;
+}
+
+.content1 .content1top .content1topcontent .connect h3{
+	position: absolute;
+	font-family: Open Sans;
+	top: 164px;
+	left: 25px;
+	color: white;
+}
+
+.content1 .content1bottom{
+	height: 500px;
+	width: inherit;
+	position: relative;
+}
+
+.content1 .content1bottom h3{
+	font-family: Open Sans;
+	color: #00aeef;
+
+}
+
+.content1 .content1bottom .content1bottomcontent .cprofile{
+	width: 365px;
+	height: 376px;
+	position: absolute;
+	background-color: #8dc63f;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.content1 .content1bottom .content1bottomcontent .cprofile a{
+	position: absolute;
+	width: 91px;
+	height: 91px;
+	display: block;
+	background: url(../img/resume.png) no-repeat;
+	left: 139px;
+	top: 50px;
+	text-indent: -2000px;
+}
+
+.content1 .content1bottom .content1bottomcontent .cprofile h3{
+	position: absolute;
+	font-family: Open Sans;
+	top: 164px;
+	left: 25px;
+	color: white;
+}
+
+.content1 .content1bottom .content1bottomcontent .filterlikes{
+	width: 365px;
+	height: 376px;
+	left: 370px;
+	position: absolute;
+	background-color: #8dc63f;
+	border-radius: 10px;
+}
+
+.content1 .content1bottom .content1bottomcontent .filterlikes a{
+	position: absolute;
+	width: 91px;
+	height: 91px;
+	display: block;
+	background: url(../img/question.png) no-repeat;
+	left: 139px;
+	top: 50px;
+	text-indent: -2000px;
+}
+
+.content1 .content1bottom .content1bottomcontent .filterlikes h3{
+	position: absolute;
+	font-family: Open Sans;
+	top: 164px;
+	left: 25px;
+	color: white;
+}
+
+.content1 .content1bottom .content1bottomcontent .connectandhire{
+	width: 365px;
+	height: 376px;
+	position: absolute;
+	left: 740px;
+	background-color: #8dc63f;
+	border-radius: 10px;
+}
+
+.content1 .content1bottom .content1bottomcontent .connectandhire a{
+	position: absolute;
+	width: 91px;
+	height: 91px;
+	display: block;
+	background: url(../img/person.png) no-repeat;
+	left: 139px;
+	top: 50px;
+	text-indent: -2000px;
+}
+
+.content1 .content1bottom .content1bottomcontent .connectandhire h3{
+	position: absolute;
+	font-family: Open Sans;
+	top: 164px;
+	left: 25px;
+	color: white;
+}
+/*--------------------------------------------------*/
+
+.content2{
+	width: 1170px;
+	padding: 0 215px 0 215px;
+	height: 907px;
+	position: relative;
+}
+
+.content2 table.sortable tbody tr.headerstyle th{
+	text-align: left;
+	background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+
+/*--------------------------------------------------*/
+
+.footer{
+	width: 1170px;
+	padding: 0 215px 0 215px;
+	height: 71px;
+	background-color: #0084f0;
+	position: relative;
+}
+
+.footer .footerleft{
+	display: inline-block;
+	width: 300px;
+	height: inherit;
+	position: absolute;
+}
+
+.footer .footerleft p{
+	color: white;
+	font-family: Open Sans regular;
+	text-decoration: none;
+	padding-top: 10px;
+	font-size: 15px;
+	display: block;
+}
+
+.footer .footerright{
+	position: absolute;
+	right: 215px;
+	color: white;
+	font-family: Open Sans regular;
+	text-decoration: none;
+	font-size: 15px;
+	width: 300px;
+	height: inherit;
+}
+
+.footer .footerright ul li{
+	padding-top: 10px;
+	display: inline-block;
+	padding-right: 10px;
+	text-decoration: none;
+	color: white;
+	font-family: Open Sans regular;
+}
+
+.table_style{
+	border: 1;
+}
+/*--------------------------------------------------*/
+
+
